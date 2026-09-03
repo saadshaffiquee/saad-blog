@@ -1,0 +1,29 @@
+first setup react its front end
+
+for backend we will use sanity.io
+
+blog/
+├── saadblog/   <-- Your React Frontend Application
+└── backend/    <-- Your Sanity CMS / Content Database
+
+
+so make a saperate folder for it then run this cmd in folder "npm create sanity@latest"
+
+
+
+then answer few question like login then intiz like project if not already...
+
+then go and get the creds get it form sanity.json in backend
+
+  projectId: 'afc26ist',
+  dataset: 'production',
+
+
+  Connecting backend and frontend
+
+  make a clinet.js folder in front... insatll npm install @sanity/client then
+  import sanity then export it and in between write the code for connection
+
+
+  Allowing react to fetch data from sanity 
+  -> go to api add CROS origin make sure to change it after you are done with local host
